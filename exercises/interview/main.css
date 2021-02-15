@@ -1,0 +1,85 @@
+body {
+  padding: 50px;
+}
+
+@font-face {
+	font-family: "MonumentExtended-Regular";
+  src: ('assets/fonts/MonumentExtended-Regular.otf') format("otf");
+
+	font-family: "MonumentExtended-Ultrabold";
+  src: ('assets/fonts/MonumentExtended-Ultrabold.otf') format("otf");
+
+  	font-family: "NewYork";
+  src: ('assets/fonts/NewYork.otf') format("otf");
+
+}
+.question-container, .question-container-2, .question-container-3, .question-container-4, .question-container-5{
+    margin-bottom: 200px;
+    font-size: 30px;
+
+}
+
+.question {
+	font-family: "arial";
+	border: 5px solid black;
+	border-radius: 100px;
+	padding: 20px;
+	background-color: red;
+}
+
+.answer {
+	font-family: "arial";
+	border: 5px solid black;
+	border-radius: 100px;
+	padding: 20px;
+	background-color: blue;
+}
+
+.space1 {
+	margin-bottom: 50px;
+}
+
+.answer-container {
+	font-family: "arial";
+	border: 5px solid black;
+	border-radius: 100px;
+	padding: 50px;
+}
+
+.question-2 {
+	font-family: "arial";
+}
+
+.answer-2{
+	font-family: "georgia";
+	font-size: 50px;
+
+}
+
+.question-3 {
+	font-family: "Raleway";
+	letter-spacing: 5px;
+	line-height: 1.5;
+}
+
+.answer-3 {
+	margin-right: 5px;
+	border: 3px solid black;
+	padding: 5px;
+	background-color: lightgreen;
+	border-radius: 100px;
+}
+
+
+.question-4 {
+	font-family: "MonumentExtended-Regular";
+}
+
+.font-4 {
+	font-family: "MonumentExtended-Ultrabold";
+}
+
+.question-container-5, .question-5, .answer-5 {
+	font-family: "times";
+}
+}

@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+}
+
+/* Students – this typeface doesn't appear on Glitch because it gets stored differently. This code will work in your document locally */
+
+@font-face {
+  font-family: "graphik-semi";
+  src: url("assets/Graphik-Semibold.woff") format("woff"),
+    url("assets/Graphik-Semibold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.question-container, .question-container-2, .question-container-3 {
+    margin-bottom: 200px;
+}
+
+.question-container {
+  border: 5px solid black;
+  padding: 15px;
+  font-family: times;
+  font-size: 30px;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.speaker-1 {
+  color: blue;
+}
+
+.speaker-2 {
+  color: red;
+}
+
+.question-container-2 {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.indented {
+  margin: 0 0 25px 25px;
+}
+
+.question-container-3 {
+  font-family: "graphik-semi", sans-serif;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+}
+
+.question-3,
+.answer-3 {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question-3 {
+  background-color: MediumSpringGreen;
+  margin-right: 25px;
+}
+
+.answer-3 {
+  background-color: #ff00ff;
+}
