@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Light.woff2') format('woff2'),
+        url('Helvetica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Keep on Truckin';
+    src: url('KeeponTruckin.woff2') format('woff2'),
+        url('KeeponTruckin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+
+
+
+body {
+  padding: 100px;
+  font-family: Helvetica;
+  margin-right: 100px;
+    background: -webkit-radial-gradient(#9cdbf4, #ec91bd);
+
+}
+
+.doja {
+	font-size: 100px;
+	margin-bottom: 50px;
+    font-family: "Keep on Truckin";
+
+
+
+}
+
+.font1 {
+    font-family: "Keep on Truckin";
+}
+
+.bigfont {
+    font-family: "Helvetica";
+    font-size: 40px;
+}
+
+.biggerfont {
+    font-family: "Helvetica";
+    font-size: 75px;
+}
+
+.italicize {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.intro, .body, .earlylife {
+    margin-bottom: 40px;
+    font-size: 18px;  
+    margin: 50px 50px 100px 100px;
+    line-height: 1.2;
+
+}
+
+.albums, .tours {
+	margin-bottom: 40px;
+    font-size: 18px;  
+    margin: 50px 50px 100px 100px;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.bodyheader {
+	font-size: 50px;
+	margin-bottom: 40px;
+
+}
+
+.header {
+	font-size: 30px;
+	font-weight: 200px;
+
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Light.woff2') format('woff2'),
+        url('Helvetica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+  padding: 100px;
+  font-family: Helvetica;
+  margin-right: 100px;
+}
+
+.doja {
+	font-size: 80px;
+	margin-bottom: 50px;
+
+}
+
+
+.intro, .body, .earlylife {
+    margin-bottom: 40px;
+    font-size: 18px;  
+    margin: 50px 50px 100px 100px;
+    line-height: 1.2;
+
+}
+
+.albums, .tours {
+	margin-bottom: 40px;
+    font-size: 18px;  
+    margin: 50px 50px 100px 100px;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.bodyheader {
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.header {
+	font-size: 30px;
+	font-weight: 200px;
+
+}
