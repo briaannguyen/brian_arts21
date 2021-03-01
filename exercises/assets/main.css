@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular.woff2') format('woff2'),
+        url('MonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.title {
+	font-family: 'Monument Extended';
+	font-size: 80px;
+	color: #C83B75;
+}
+
+.subtitle {
+	font-family: 'Monument Extended';
+	font-size: 50px;
+	color: #C83B75;
+	align-content: center;
+}
+
+.timetitle {
+	font-family: 'Arial';
+	font-size: 20px;
+	color: #C83B75;
+	align-content: center;
+	font-weight: bold;
+}
+
+.timetitle2 {
+	font-family: 'Monument Extended';
+	font-size: 40px;
+	color: #C83B75;
+	align-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item0 {
+  border: 1px solid black;
+  height: 150px;
+  display: flex;
+  background-color: #151F4D;
+
+ }
+
+.grid-item {
+  border: 1px solid black;
+  height: 300px;
+  display: flex;
+  background-color: #151F4D;
+
+}
+
+
+.center {
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+
+}
+
+
+.weird-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr 0.25fr;
+  grid-gap: 10px;
+}
+
+.weird-grid2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: #151F4D;
+}
+
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+.title {
+	font-family: 'Monument Extended';
+	font-size: 20px;
+	color: #C83B75;
+}
+
+.subtitle {
+	font-family: 'Monument Extended';
+	font-size: 10px;
+	color: #C83B75;
+	align-content: center;
+}
+
+.timetitle {
+	font-family: 'Arial';
+	font-size: 10px;
+	color: #C83B75;
+	align-content: center;
+	font-weight: bold;
+}
+
+.timetitle2 {
+	font-family: 'Monument Extended';
+	font-size: 10px;
+	color: #C83B75;
+	align-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item0 {
+  border: 1px solid black;
+  height: 150px;
+  display: flex;
+  background-color: #151F4D;
+
+ }
+
+.grid-item {
+  border: 1px solid black;
+  height: 300px;
+  display: flex;
+  background-color: #151F4D;
+
+}
+
+
+.center {
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+
+}
+
+
+.weird-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr 0.25fr;
+  grid-gap: 10px;
+}
+
+.weird-grid2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: #151F4D;
+}
+
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+	
