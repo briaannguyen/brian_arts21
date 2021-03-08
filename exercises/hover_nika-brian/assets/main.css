@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Light.woff2') format('woff2'),
+        url('Helvetica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+  padding: 100px;
+  font-family: "Helvetica";
+  text-align: center;
+  font-size: 50px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/*made a common class for all of them so you dont need to repeat yourself*/
+.event {
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+}
+
+.event:after {
+  content: '';
+  position: fixed;
+  pointer-events: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 60%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/*moved img from content to background img. transform centers it, but you could do transformY if you wanted to push it to the right instead*/
+
+.event:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+
+.event:hover:after {
+  display: block;
+}
+
+/*only the parts that are unique should go in the hover after, which are the images*/
+
+/*used background image instead of content because its easier to size it and adjust it in the box*/
+.event1:hover:after {
+  background-image: url("images/108.jpg");
+}
+
+.event2:hover:after {
+  background-image: url(images/141.jpg);
+}
+
+.event3:hover:after {
+  background-image: url(images/142.jpg);
+}
+
+.event4:hover:after {
+  background-image: url(images/232.jpg);
+}
+
+.event5:hover:after {
+  background-image: url(images/247.jpg);
+}
+
+.event6:hover:after {
+  background-image: url(images/326.jpg);
+}
+
+.event7:hover:after {
+  background-image: url(images/458.jpg);
+}
+
+.event8:hover:after {
+  background-image: url(images/854.jpg);
+}
+
+.event9:hover:after {
+  background-image: url(images/943.jpg);
+}
+
+.event10:hover:after {
+  background-image: url(images/1046.jpg);
+}
+
+.event11:hover:after {
+  background-image: url(images/1121.jpg);
+}
+
