@@ -1,0 +1,92 @@
+body {
+  font-family: arial;
+  padding: 3rem;
+}
+
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.item {
+  max-width: 960px;
+  text-align: center;
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6, .button7{
+  border: 2px solid;
+  padding: 20px;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .button7:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.sunrise {
+ opacity: 40%;
+ background: linear-gradient(45deg, #12131e, #f9c38f);
+ background-size: 600% 100%;
+ animation: gradient 7s linear infinite;
+ animation-direction: alternate;  
+}
+
+.morning {
+ opacity: 40%;
+ background: linear-gradient(45deg, #f9c38f, #ffb171, #bbfdff);
+ background-size: 600% 100%;
+ animation: gradient 7s linear infinite;
+ animation-direction: alternate; 
+}
+
+.daytime {
+ opacity: 40%;
+ background: linear-gradient(45deg, #bbfdff, #8ae9ff, #50deff, #fff8bb, #559aff);
+ background-size: 600% 100%;
+ animation: gradient 7s linear infinite;
+ animation-direction: alternate; 
+}
+
+.sunset {
+ opacity: 40%;
+ background: linear-gradient(45deg, #4791ea, #6c73ff, #dd80af, #ac62c4);
+ background-size: 600% 100%;
+ animation: gradient 7s linear infinite;
+ animation-direction: alternate; 
+}
+
+.evening {
+ opacity: 40%;
+ background: linear-gradient(45deg, #436daa, #324e75, #1e2e38);
+ background-size: 600% 100%;
+ animation: gradient 7s linear infinite;
+ animation-direction: alternate; 
+}
+
+.dreamtime {
+ opacity: 40%;
+ background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+ background-size: 600% 100%;
+ animation: gradient 7s linear infinite;
+ animation-direction: alternate;
+}
+
+.nighttime {
+ opacity: 40%;
+ background: linear-gradient(45deg, #1e2e38, #151e23, #0f1214);
+ background-size: 600% 100%;
+ animation: gradient 7s linear infinite;
+ animation-direction: alternate; 
+}
