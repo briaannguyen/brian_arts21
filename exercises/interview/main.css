@@ -3,9 +3,9 @@ body {
 }
 
 @font-face {
-    font-family: 'Monument Extended';
-    src: url('MonumentExtended-Regular.woff2') format('woff2'),
-        url('MonumentExtended-Regular.woff') format('woff');
+    font-family: 'BN Hamburg Hand';
+    src: url('BNHamburgHandRegular.woff2') format('woff2'),
+        url('BNHamburgHandRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -95,7 +95,7 @@ body {
 }
 
 .question-container-5, .question-5, .answer-5 {
-	font-family: "Monument Extended";
+	font-family: 'BN Hamburg Hand';
 }
 
 p {
