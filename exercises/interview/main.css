@@ -3,16 +3,24 @@ body {
 }
 
 @font-face {
-	font-family: "MonumentExtended-Regular";
-  src: ('assets/fonts/MonumentExtended-Regular.otf') format("otf");
-
-	font-family: "MonumentExtended-Ultrabold";
-  src: ('assets/fonts/MonumentExtended-Ultrabold.otf') format("otf");
-
-  	font-family: "NewYork";
-  src: ('assets/fonts/NewYork.otf') format("otf");
-
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular.woff2') format('woff2'),
+        url('MonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 .question-container, .question-container-2, .question-container-3, .question-container-4, .question-container-5{
     margin-bottom: 200px;
     font-size: 30px;
@@ -25,6 +33,7 @@ body {
 	border-radius: 100px;
 	padding: 20px;
 	background-color: red;
+	text-align:left
 }
 
 .answer {
@@ -33,6 +42,8 @@ body {
 	border-radius: 100px;
 	padding: 20px;
 	background-color: blue;
+	margin-bottom: 100px;
+	text-align:right
 }
 
 .space1 {
@@ -50,16 +61,17 @@ body {
 	font-family: "arial";
 }
 
-.answer-2{
+.answer-2 {
 	font-family: "georgia";
 	font-size: 50px;
-
+	margin-bottom: 100px;
 }
 
 .question-3 {
 	font-family: "Raleway";
 	letter-spacing: 5px;
 	line-height: 1.5;
+
 }
 
 .answer-3 {
@@ -72,14 +84,20 @@ body {
 
 
 .question-4 {
-	font-family: "MonumentExtended-Regular";
+	font-family: "Helvetica";
 }
 
-.font-4 {
-	font-family: "MonumentExtended-Ultrabold";
+
+.answer-4 {
+	font-family: "Helvetica";
+	font-weight: 700;
+	margin-bottom: 100px;
 }
 
 .question-container-5, .question-5, .answer-5 {
-	font-family: "times";
+	font-family: "Monument Extended";
 }
+
+p {
+	margin-bottom: 100px;
 }
